@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Git\\CareFirst\\CareFirst\\CareFirst.csproj": {}
+    "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\CareFirst.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Git\\CareFirst\\CareFirst\\CareFirst.csproj": {
+    "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\CareFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Git\\CareFirst\\CareFirst\\CareFirst.csproj",
+        "projectUniqueName": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\CareFirst.csproj",
         "projectName": "CareFirst",
-        "projectPath": "D:\\Code\\Git\\CareFirst\\CareFirst\\CareFirst.csproj",
+        "projectPath": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\CareFirst.csproj",
         "packagesPath": "C:\\Users\\shoto\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Git\\CareFirst\\CareFirst\\obj\\",
+        "outputPath": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
