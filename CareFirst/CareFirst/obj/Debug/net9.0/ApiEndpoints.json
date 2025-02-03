@@ -1,0 +1,326 @@
+[
+  {
+    "ContainingType": "CareFirst.Controllers.SupperUserController",
+    "Method": "CreateAccount",
+    "RelativePath": "Admin/CreateAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newAdmin",
+        "Type": "CareFirst.Dtos.AdminDto.CreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.SupperUserController",
+    "Method": "LoginUser",
+    "RelativePath": "Admin/LoginAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginAdmin",
+        "Type": "CareFirst.Dtos.AdminDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.BookingController",
+    "Method": "UserBookingDoctor",
+    "RelativePath": "Booking/Doctor/{Id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDoctor",
+        "Type": "CareFirst.Dtos.BookingDto.BookingDoctorDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UserBookingDoctor"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.BookingController",
+    "Method": "UserBookingNurse",
+    "RelativePath": "Booking/Nurse/{Id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookNurse",
+        "Type": "CareFirst.Dtos.BookingDto.BookingNurseDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UserBookingNurse"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.DoctorController",
+    "Method": "ChangeAppointment",
+    "RelativePath": "Doctor/change/{appintmentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appintmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ChangeAppointment"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.DoctorController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "Doctor/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Department",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllDoctors"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.DoctorController",
+    "Method": "GetDoctorByID",
+    "RelativePath": "Doctor/ID/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetDoctorByID"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.NurseController",
+    "Method": "GetAllNurses",
+    "RelativePath": "Nurse/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Department",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllNurses"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.NurseController",
+    "Method": "GetNurseByID",
+    "RelativePath": "Nurse/ID/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetNurseByID"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "CreateAccount",
+    "RelativePath": "user/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "CareFirst.Dtos.UserDtos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateAccount"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "VerifiedPasswordbyEmail",
+    "RelativePath": "user/Forget/password/email/{email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "VerifiedPasswordbyEmail"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "VerifiedPasswordbyPhone",
+    "RelativePath": "user/Forget/password/phone/{phone}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "VerifiedPasswordbyPhone"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "GetUserInfo",
+    "RelativePath": "user/Info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserInfo"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "user/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "CareFirst.Dtos.UserDtos.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "LoginUser"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "AddProfilePicture",
+    "RelativePath": "user/picture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddProfilePicture"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "DeleteProfilePicture",
+    "RelativePath": "user/picture",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteProfilePicture"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "UpdateProfilePicture",
+    "RelativePath": "user/picture",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateProfilePicture"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "user/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPassword",
+        "Type": "CareFirst.Dtos.UsersDto.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ResetPassword"
+  },
+  {
+    "ContainingType": "CareFirst.Controllers.UserController",
+    "Method": "AddReviewToDoctor",
+    "RelativePath": "user/Review/{DoctorId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "CareFirst.Dtos.ReviewDto.ReviewDoctorDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddReviewToDoctor"
+  }
+]

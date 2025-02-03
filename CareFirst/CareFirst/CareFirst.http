@@ -1,0 +1,6 @@
+@CareFirst_HostAddress = http://localhost:5020
+
+GET {{CareFirst_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
