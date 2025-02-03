@@ -12,7 +12,7 @@ namespace CareFirst.IRepository
         string? GenerateToken(UserTable user);
         Task<UserTable?> GetInfo(int iD);
         Task<bool> SendEmailAsync(string email);
-        Task<bool> SendPhoneAsync(string phone);
+        //Task<bool> SendPhoneAsync(string phone);
         Task<UserTable?> ResetPassword(ResetPasswordDto reset);
         Task<bool> SendReviewAsync(ReviewDoctorDto review, int userId, int doctorId);
         Task<string> AddImageAsync(IFormFile file, int userId);

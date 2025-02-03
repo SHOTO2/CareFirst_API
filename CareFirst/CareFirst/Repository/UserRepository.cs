@@ -23,7 +23,7 @@ namespace CareFirst.Repository
 {
 
     public class UserRepository
-        (ApplicationDbContext _context, IPasswordHash _hash, JwtOptions _jwt, SmtpOptions _smtp, TwilioOptions _twil)
+        (ApplicationDbContext _context, IPasswordHash _hash, JwtOptions _jwt, SmtpOptions _smtp)
         : IUserRepository
     {
         private string _createRandom5Number()
@@ -185,31 +185,31 @@ namespace CareFirst.Repository
             }
         }
 
-        public async Task<bool> SendPhoneAsync(string phone)
-        {
-            var user = await _getUserByPhone(phone);
-            if (user == null)
-                return false;
-            await GenerateResetToken(user);
+        //public async Task<bool> SendPhoneAsync(string phone)
+        //{
+        //    var user = await _getUserByPhone(phone);
+        //    if (user == null)
+        //        return false;
+        //    await GenerateResetToken(user);
 
-            try
-            {
-                TwilioClient.Init(_twil.AccountSid, _twil.Authtoken);
-                string otp = user.PasswordResetToken!;
+        //    try
+        //    {
+        //        TwilioClient.Init(_twil.AccountSid, _twil.Authtoken);
+        //        string otp = user.PasswordResetToken!;
 
-                var message = MessageResource.Create(
-                    body: $"Your OTP code is: {otp}",
-                    from: new PhoneNumber(_twil.TwilioPhoneNumber),
-                    to: new PhoneNumber($"+20{user.PhoneNumber}")
-                );
+        //        var message = MessageResource.Create(
+        //            body: $"Your OTP code is: {otp}",
+        //            from: new PhoneNumber(_twil.TwilioPhoneNumber),
+        //            to: new PhoneNumber($"+20{user.PhoneNumber}")
+        //        );
 
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
+        //        return true;
+        //    }
+        //    catch
+        //    {
+        //        return false;
+        //    }
+        //}
 
         public async Task<UserTable?> ResetPassword(ResetPasswordDto reset)
         {

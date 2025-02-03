@@ -91,10 +91,10 @@ namespace CareFirst.Controllers
         {
             if (string.IsNullOrEmpty(phone))
                 return BadRequest();
-            bool IsSend = await _user.SendPhoneAsync(phone);
-            if (!IsSend)
+            //bool IsSend = await _user.SendPhoneAsync(phone);
+            //if (!IsSend)
                 return NotFound("There is an error here, try again.");
-            return Ok("Check your phone");
+            //return Ok("Check your phone");
         }
 
         [AllowAnonymous]

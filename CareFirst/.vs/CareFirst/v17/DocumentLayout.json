@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|solutionrelative:carefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B575EC0-89B7-456E-B5AA-99EBEE3F3D3A}|CareFirst\\CareFirst.csproj|d:\\code\\git\\carefirst_api\\carefirst\\carefirst\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,6 +83,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CareFirst\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CareFirst\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:26:38.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CareFirst\\IRepository\\IUserRepository.cs",
+              "ToolTip": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "CareFirst\\IRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:26:18.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\appsettings.json",
               "RelativeDocumentMoniker": "CareFirst\\appsettings.json",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Repository\\BookingRepository.cs",
               "RelativeDocumentMoniker": "CareFirst\\Repository\\BookingRepository.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UserTable.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Model\\UserTable.cs",
               "RelativeDocumentMoniker": "CareFirst\\Model\\UserTable.cs",
@@ -111,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SupperUserController.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Controllers\\SupperUserController.cs",
               "RelativeDocumentMoniker": "CareFirst\\Controllers\\SupperUserController.cs",
@@ -123,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BookDoctor.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Model\\BookDoctor.cs",
               "RelativeDocumentMoniker": "CareFirst\\Model\\BookDoctor.cs",
@@ -135,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DoctorController.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Controllers\\DoctorController.cs",
               "RelativeDocumentMoniker": "CareFirst\\Controllers\\DoctorController.cs",
@@ -153,27 +187,27 @@
               "RelativeDocumentMoniker": "CareFirst\\Repository\\UserRepository.cs",
               "ToolTip": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Repository\\UserRepository.cs",
               "RelativeToolTip": "CareFirst\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAuwLsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T15:44:29.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Program.cs",
               "RelativeDocumentMoniker": "CareFirst\\Program.cs",
               "ToolTip": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Program.cs",
               "RelativeToolTip": "CareFirst\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T15:29:06.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "BookNurse.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Model\\BookNurse.cs",
               "RelativeDocumentMoniker": "CareFirst\\Model\\BookNurse.cs",
@@ -185,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AppointmentNurse.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Model\\AppointmentNurse.cs",
               "RelativeDocumentMoniker": "CareFirst\\Model\\AppointmentNurse.cs",
@@ -197,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppointmentDoctor.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Model\\AppointmentDoctor.cs",
               "RelativeDocumentMoniker": "CareFirst\\Model\\AppointmentDoctor.cs",
@@ -209,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IAdminRepository.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\IRepository\\IAdminRepository.cs",
               "RelativeDocumentMoniker": "CareFirst\\IRepository\\IAdminRepository.cs",
@@ -221,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IDoctorRepository.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\IRepository\\IDoctorRepository.cs",
               "RelativeDocumentMoniker": "CareFirst\\IRepository\\IDoctorRepository.cs",
@@ -233,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DoctorRepository.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Repository\\DoctorRepository.cs",
               "RelativeDocumentMoniker": "CareFirst\\Repository\\DoctorRepository.cs",
@@ -245,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Code\\Git\\CareFirst_API\\CareFirst\\CareFirst\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CareFirst\\Context\\ApplicationDbContext.cs",
