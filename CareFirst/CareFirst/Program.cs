@@ -16,11 +16,9 @@ builder.Services.AddControllers();
 
 var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
 var smtpOptions = builder.Configuration.GetSection("Smtp").Get<SmtpOptions>();
-var twilioOptions = builder.Configuration.GetSection("Twilio").Get<TwilioOptions>();
 
 builder.Services.AddSingleton(jwtOptions!);
 builder.Services.AddSingleton(smtpOptions!);
-builder.Services.AddSingleton(twilioOptions!);
 
 ////AddScop To Repository
 builder.Services.AddScoped<IUserRepository, UserRepository>();
