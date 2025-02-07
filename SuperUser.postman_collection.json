@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "d3bb8d99-14ec-41f0-b1c9-0cc0411453cf",
+		"name": "SuperUser",
+		"description": "دي لو انت حبا يكون في ادمن  \nيغير مثلا ال state بتاع الحجز  \nلمكتمل عشان يسمح لليوزر يعمل تقيم  \nممكن تغيريها من الداتا بيز علطول لو حباني اضفها قليلي",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40254101",
+		"_collection_link": "https://carefirst-1985.postman.co/workspace/CareFirst-Workspace~35347f5e-ba79-41e2-83e8-d67bef04740c/collection/40254101-d3bb8d99-14ec-41f0-b1c9-0cc0411453cf?action=share&source=collection_link&creator=40254101"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create Admin",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Chang Doctor Apointment State To Finish",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJBaG1lZCIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTczODU5ODYwNCwiZXhwIjoxNzM4NjAyMjA0LCJpYXQiOjE3Mzg1OTg2MDQsImlzcyI6Imh0dHBzOi8vTG9jYWxob3N0IiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDAwMC93ZWJwb3J0YWwifQ.pJGbZ3NHThMAR_FmztJVBGA2C6LpITqOxeIIicHNiVA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7183/Doctor/change/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"Doctor",
+						"change",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

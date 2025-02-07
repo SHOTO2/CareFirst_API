@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "474f5422-b395-404e-9142-7e29c1826d2a",
+		"name": "User",
+		"description": "اليوزر مشروح في الفديو",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40254101",
+		"_collection_link": "https://carefirst-1985.postman.co/workspace/CareFirst-Workspace~35347f5e-ba79-41e2-83e8-d67bef04740c/collection/40254101-474f5422-b395-404e-9142-7e29c1826d2a?action=share&source=collection_link&creator=40254101"
+	},
+	"item": [
+		{
+			"name": "Create Account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\" :\"Ahmed Essam\",\r\n    \"Email\" :\"shotoessam@gmail.com\",\r\n    \"PhoneNumber\":\"01003452435\",\r\n    \"Password\":\"12341234\",\r\n    \"ConfirmPassword\":\"12341234\",\r\n    \"Gender\": 1,\r\n    \"Age\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/user/create",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\":\"shotoessam@gmail.com\",\r\n    \"Password\":\"12341234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/user/Login",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"user",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MjM5MDEsImV4cCI6MTczODUyNzUwMSwiaWF0IjoxNzM4NTIzOTAxLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.FehiRQav-Cg87ble4byDWGBEqaXTHua782A59QlhcO4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/user/info",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"user",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send OTP To Phone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/01283433271",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"01283433271"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send OTP To Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/user/Forget/password/email/shotoessam@gmail.com",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"user",
+						"Forget",
+						"password",
+						"email",
+						"shotoessam@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Token\":\"56009\",\r\n    \"Password\":\"Ashoto3404\",\r\n    \"ConfirmPassword\":\"Ashoto3404\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/user/resetPassword",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"user",
+						"resetPassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Doctor Review",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1OTgyOTcsImV4cCI6MTczODYwMTg5NywiaWF0IjoxNzM4NTk4Mjk3LCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.1K8U7JFgExvtXkWp7ZP46b4nFANBEgTI0oQp9_2OMJQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Rating\": 4,\r\n    \"Comment\":\"This is perfect docktor\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7183//User/Review/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"",
+						"User",
+						"Review",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Profile Picture",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDIzNTMsImV4cCI6MTczODUwNTk1MywiaWF0IjoxNzM4NTAyMzUzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.pE3Wvy5kFGCDw3h4Un9tGqmDNmdSC91cIgvgWoBG6S8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "postman-cloud:///1efe168c-24e8-4970-a6d6-c310841dc2e4"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/User/picture",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"User",
+						"picture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Profile Picture",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDIzNTMsImV4cCI6MTczODUwNTk1MywiaWF0IjoxNzM4NTAyMzUzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.pE3Wvy5kFGCDw3h4Un9tGqmDNmdSC91cIgvgWoBG6S8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/User/picture",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"User",
+						"picture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Profile Picture",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDIzNTMsImV4cCI6MTczODUwNTk1MywiaWF0IjoxNzM4NTAyMzUzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.pE3Wvy5kFGCDw3h4Un9tGqmDNmdSC91cIgvgWoBG6S8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "postman-cloud:///1efe1696-6377-41a0-9b42-a2a164eae5e1"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/User/picture",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"User",
+						"picture"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

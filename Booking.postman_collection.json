@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "7177cc86-d971-4f1b-a139-235879fa605c",
+		"name": "Booking",
+		"description": "هنا ال endpoint  \nلازم يكون معاك ال token عشان يتاكد انك authorize  \nاللمت بتاع عدد الحجوزات موجود في الداتا بيز في جدو ال AppSettings  \nهتغيري ال MaxBooking للرقم اللنت عيزاه اللمكتوب حاليا 5\n\n---\n\nبتبعت\n\n``` json\n{\n    \"Name\":\"Name\",\n    \"PhoneNumber\":\"رقم التلفون\"\n}\n\n ```\n\nونفس كل ده لل Doctor و Nurse\n\n---\n\nلما تعمل book  \nعلطول  \nبيتحفظ في حجتين علي حسب doctor ولا nuse\n\nAppointmentDoctors لو كان دكتور  \nاو  \nAppointmentNurse لو كان ممرض\n\nوبتحفظ برضو في BookNurse او BookDoctor\n\n---",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40254101",
+		"_collection_link": "https://carefirst-1985.postman.co/workspace/CareFirst-Workspace~35347f5e-ba79-41e2-83e8-d67bef04740c/collection/40254101-7177cc86-d971-4f1b-a139-235879fa605c?action=share&source=collection_link&creator=40254101"
+	},
+	"item": [
+		{
+			"name": "Book Doctor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1OTg1MTUsImV4cCI6MTczODYwMjExNSwiaWF0IjoxNzM4NTk4NTE1LCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.77t0HQ5UXKRulIXvhSnhQ7B_KtAr8FUZILwBs6AN8cI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Ahmed Yasser\",\r\n    \"PhoneNumber\":\"01023880436\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://carefirst.runasp.net/Booking/Doctor/5",
+					"protocol": "http",
+					"host": [
+						"carefirst",
+						"runasp",
+						"net"
+					],
+					"path": [
+						"Booking",
+						"Doctor",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Nurce",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDA1MDMsImV4cCI6MTczODUwNDEwMywiaWF0IjoxNzM4NTAwNTAzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.B6aLzLQwCQAB6lYsYEiPldXI7x2C_tRhKU_NEAJEmUo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Ahmed Essam\",\r\n    \"PhoneNumber\":\"01023880436\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7183/Booking/Nurse/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"Booking",
+						"Nurse",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

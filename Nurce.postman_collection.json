@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "1bffa814-2ac5-4eb9-bc59-ae9907a84d3b",
+		"name": "Nurce",
+		"description": "نفس doctor بالظبط",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40254101",
+		"_collection_link": "https://carefirst-1985.postman.co/workspace/CareFirst-Workspace~35347f5e-ba79-41e2-83e8-d67bef04740c/collection/40254101-1bffa814-2ac5-4eb9-bc59-ae9907a84d3b?action=share&source=collection_link&creator=40254101"
+	},
+	"item": [
+		{
+			"name": "Get All Nurces",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDA1MDMsImV4cCI6MTczODUwNDEwMywiaWF0IjoxNzM4NTAwNTAzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.B6aLzLQwCQAB6lYsYEiPldXI7x2C_tRhKU_NEAJEmUo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.appNurse/Get",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"appNurse"
+					],
+					"path": [
+						"Get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Nurce by ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDA1MDMsImV4cCI6MTczODUwNDEwMywiaWF0IjoxNzM4NTAwNTAzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.B6aLzLQwCQAB6lYsYEiPldXI7x2C_tRhKU_NEAJEmUo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/Nurse/id/4",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"Nurse",
+						"id",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Specialized Home",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoic2hvdG9lc3NhbUBnbWFpbC5jb20iLCJuYmYiOjE3Mzg1MDA1MDMsImV4cCI6MTczODUwNDEwMywiaWF0IjoxNzM4NTAwNTAzLCJpc3MiOiJodHRwczovL0xvY2FsaG9zdCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQwMDAvd2VicG9ydGFsIn0.B6aLzLQwCQAB6lYsYEiPldXI7x2C_tRhKU_NEAJEmUo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/Nurse/Get?Department=SpecializedHome",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"Nurse",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "Department",
+							"value": "SpecializedHome"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Chronic Care",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwidW5pcXVlX25hbWUiOiJBaG1lZCBFc3NhbSIsImVtYWlsIjoicXdlcnR5dWFzZGZnaDIyNTVAZ21haWwuY29tIiwibmJmIjoxNzM4NDc3ODcwLCJleHAiOjE3Mzg0ODE0NzAsImlhdCI6MTczODQ3Nzg3MCwiaXNzIjoiaHR0cHM6Ly9Mb2NhbGhvc3QiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo0MDAwL3dlYnBvcnRhbCJ9.rDIbw8OsAOGPN7vVKjIAmFdWGJDUiJm0k-vOd0aDEBI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://59b8-45-243-91-242.ngrok-free.app/Nurse/Get?Department=ChronicCare",
+					"protocol": "https",
+					"host": [
+						"59b8-45-243-91-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"Nurse",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "Department",
+							"value": "ChronicCare"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
